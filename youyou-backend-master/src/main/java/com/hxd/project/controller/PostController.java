@@ -10,12 +10,10 @@ import com.hxd.project.common.ResultUtils;
 import com.hxd.project.constant.CommonConstant;
 import com.hxd.project.exception.BusinessException;
 import com.hxd.project.model.dto.post.PostAddRequest;
-import com.hxd.project.model.dto.post.PostDoThumbRequest;
 import com.hxd.project.model.dto.post.PostQueryRequest;
 import com.hxd.project.model.dto.post.PostUpdateRequest;
 import com.hxd.project.model.entity.Post;
 import com.hxd.project.model.entity.User;
-import com.hxd.project.model.vo.PostVO;
 import com.hxd.project.service.PostService;
 import com.hxd.project.service.UserService;
 import lombok.extern.slf4j.Slf4j;
@@ -25,11 +23,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
-import java.util.Collection;
 import java.util.List;
-import java.util.Map;
-import java.util.concurrent.*;
-import java.util.stream.Collectors;
 
 /**
  * 帖子接口

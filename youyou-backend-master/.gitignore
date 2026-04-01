@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# 忽略所有的配置文件
+application.yml
+application-prod.yml
+# 忽略包含密钥的文件
+config/keys.txt
